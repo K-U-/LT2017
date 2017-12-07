@@ -1,0 +1,24 @@
+# Unity generates
+/[Tt]emp
+/[Ll]ibrary
+/[Oo]bj
+/*.sln
+/*.csproj
+/*.unityproj
+/*.booproj
+
+# Visual Studio / MonoDevelop generates
+*.userprefs
+
+# Default build target
+/Build/webgl
+/Build/xcode
+/Build/build.apk
+/Build/build.app
+/Build/build.exe
+
+# Others
+.vs/
+socialpost.png
+UpgradeLog.htm
+*.suo
