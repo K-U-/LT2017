@@ -2,7 +2,7 @@
 
 ---
 ###にまいめ
----?code=CustomSceneOpener.cs
+---?code=Assets/Editor/CustomSceneOpener.cs
 ---
 ###さんまいめ
 
