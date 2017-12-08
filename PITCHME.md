@@ -126,6 +126,18 @@ private void OpenScene(string scene){
 
 GitPitchはいいぞ
 
++++?image=Resources/Pitch.png&size=auto 90%
+
++++?image=Resources/Markdown.png&size=auto 90%
+
++++
+
+https://gitpitch.com/ユーザー名/リポジトリ名
+
++++
+
++++?image=Resources/Page.png&size=auto 90%
+
 ---
 
 ### おわり
