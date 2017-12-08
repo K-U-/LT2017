@@ -3,15 +3,21 @@
 
 アイコン
 
----
-
----?image=Resources/Scenes.png&size=auto 90%
-すごいふえるよ！
 
 ---
 
-![Movie](Resources/SceneOpener.mov)
+
+
+---
+
+シーンががすごいふえるよ！
++++?image=Resources/Scenes.png&size=auto 90%
+
+
+---
+
 つくったもの
++++?video=Resources/SceneOpener.mp4
 
 ---
 
