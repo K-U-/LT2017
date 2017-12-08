@@ -1,11 +1,33 @@
-###これはマジで便利だったEditor拡張2017
+### これはマジで便利だったEditor拡張2017
 ---
-![Icon](https://github.com/K-U-.png)
+
+アイコン
+
+
 ---
-###いちまいめ
----?code=Assets/Editor/CustomSceneOpener.cs
-###さんまいめ
+
+
+
 ---
-###よんまいめ
+
+シーンががすごいふえるよ！
++++?image=Resources/Scenes.png&size=auto 90%
+
+
+---
+
+つくったもの
++++?video=Resources/SceneOpener.mp4
+
+---
+
+---?code=Assets/Editor/CustomSceneOpener.cs&language=cs
+実際のコード
+
+---
+
+### さんまいめ
+---
+### よんまいめ
 ---
 ###おわり
