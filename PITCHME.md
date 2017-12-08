@@ -87,6 +87,10 @@ public static void OpenDialog(){
 
 +++
 
+### もっといいやり方ありそう
+
++++
+
 ```
 private void OpenScene(string scene){
     if (EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo ()){
@@ -125,5 +129,3 @@ GitPitchはいいぞ
 ---
 
 ### おわり
-
----
