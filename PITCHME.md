@@ -42,6 +42,8 @@
 
 ### ショートカットで開く
 
++++
+
 ```
 [MenuItem("Tools/Util/Custom Scene Opener %#t")]
 public static void OpenDialog(){
@@ -69,7 +71,11 @@ public static void OpenDialog(){
 
 +++?code=Assets/Editor/CustomSceneOpener.cs&lang=cs
 
-@[43-46](キー入力を見てひらく)
+@[43-47](キー入力を見てひらく)
+
++++?code=Assets/Editor/CustomSceneOpener.cs&lang=cs
+
+@[51-56](シーンを開く処理はいい感じに)
 
 ---
 
