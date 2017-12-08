@@ -1,7 +1,7 @@
 ### これはマジで便利だったEditor拡張2017
 ---
 
-![Icon](https://github.com/K-U-.png)
+アイコン
 
 ---
 
@@ -10,11 +10,15 @@
 
 ---
 
-![Movie](Resources/SceneOpneer.mov)
+![Movie](Resources/SceneOpener.mov)
 つくったもの
+
+---
 
 ---?code=Assets/Editor/CustomSceneOpener.cs&language=cs
 実際のコード
+
+---
 
 ### さんまいめ
 ---
