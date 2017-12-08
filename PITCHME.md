@@ -33,7 +33,7 @@
 
 +++?code=Assets/Editor/CustomSceneOpener.cs&lang=cs
 
-[@10](MenuItem の後にショートカットキーを設定)
+@[10](MenuItem の後にショートカットキーを設定)
 
 ---
 
@@ -41,9 +41,9 @@
 
 +++?code=Assets/Editor/CustomSceneOpener.cs&lang=cs
 
-[@27](GUIに名前をつける)
-[@28](GUIを生成する)
-[@29](名前を指定してフォーカスする)
+@[27](GUIに名前をつける)
+@[28](GUIを生成する)
+@[29](名前を指定してフォーカスする)
 
 ---
 
@@ -51,7 +51,7 @@
 
 +++?code=Assets/Editor/CustomSceneOpener.cs&lang=cs
 
-[@43-46](キー入力を見てひらく)
+@[43-46](キー入力を見てひらく)
 
 ---
 
