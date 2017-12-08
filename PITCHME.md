@@ -73,9 +73,32 @@ public static void OpenDialog(){
 
 @[43-47](キー入力を見てひらく)
 
-+++?code=Assets/Editor/CustomSceneOpener.cs&lang=cs
++++
 
-@[51-56](シーンを開く処理はいい感じに)
+```
+private void OpenScene(string scene){
+    if (EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo ()){
+        EditorSceneManager.OpenScene (scene, UnityEditor.SceneManagement.OpenSceneMode.Single);
+        this.Close ();
+    }
+}
+```
+
+@[2](変更を保存するか確認するダイアログを表示する)
+
++++?image=Resources/Save.png&size=auto 90%
+
++++
+
+```
+private void OpenScene(string scene){
+    if (EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo ()){
+        EditorSceneManager.OpenScene (scene, UnityEditor.SceneManagement.OpenSceneMode.Single);
+        this.Close ();
+    }
+}
+```
+@[3](キャンセル以外でtrueなので実際に保存する)
 
 ---
 
