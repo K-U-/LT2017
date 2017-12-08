@@ -15,7 +15,7 @@
 
 ---
 
-### シーンががすごいふえるよ！
+### シーンがすごいふえるよ！
 +++?image=Resources/Scenes.png&size=auto 90%
 
 ---
