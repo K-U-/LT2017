@@ -9,9 +9,17 @@
 - 某リアルタイムバトルのある3DRPGとか |
 - 某有名IPのパズルゲームとか |
 
++++
+
+それはまたべつのはなし
+
 ---
 
 ### シーンをAssetBundleにしてしまう
+
++++
+
+それはまたべつのはなし
 
 ---
 
@@ -121,6 +129,11 @@ private void OpenScene(string scene){
 <font color="green">GUI</font>.SetNextControllNameは便利
 
 <font color="green">GUI</font>.FocusControllは便利
+
+
+---
+
+おまけ
 
 ---
 
