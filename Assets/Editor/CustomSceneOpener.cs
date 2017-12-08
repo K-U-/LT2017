@@ -27,11 +27,11 @@ public class CustomSceneOpener : EditorWindow {
             GUI.SetNextControlName ("Input");
             sceneName = GUILayout.TextField (sceneName);
             GUI.FocusControl ("Input");
-            var temp = allScenes;
+            var sceneList = allScenes;
             if (!string.IsNullOrEmpty (sceneName)){ 
-                temp = allScenes.Where ((arg) => Path.GetFileName (arg).Replace (".unity", "").ToLower().Contains (sceneName.ToLower())).ToArray();
+                sceneList = allScenes.Where ((arg) => Path.GetFileName (arg).Replace (".unity", "").ToLower().Contains (sceneName.ToLower())).ToArray();
             }
-            foreach (var scene in temp){
+            foreach (var scene in sceneList){
                 GUILayout.BeginHorizontal ();{
                     GUILayout.Label (Path.GetFileName (scene));
                     GUILayout.FlexibleSpace ();
@@ -40,8 +40,9 @@ public class CustomSceneOpener : EditorWindow {
                     }
                 }GUILayout.EndHorizontal ();
             }
-            if (Event.current.keyCode == KeyCode.Return && temp.Length > 0){
-                var scene = temp.First ();
+            if (Event.current.keyCode == KeyCode.Return && 
+                sceneList.Any()){
+                var scene = sceneList.First ();
                 OpenScene (scene);
             }
 
