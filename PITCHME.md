@@ -17,7 +17,7 @@
 ---
 
 つくったもの
-+++?video=Resources/SceneOpener.mp4
++++?image=Resources/SceneOpener.gif
 
 ---
 
