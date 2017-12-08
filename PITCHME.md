@@ -42,9 +42,16 @@
 
 ### ショートカットで開く
 
-+++?code=Assets/Editor/CustomSceneOpener.cs&lang=cs
+```
+[MenuItem("Tools/Util/Custom Scene Opener %#t")]
+public static void OpenDialog(){
+    var window = EditorWindow.GetWindow<CustomSceneOpener> ("CustomSceneOpener");
+    window.Focus ();
+    window.InitializeScenes ();
+}
+```
 
-@[10](MenuItem の後にショートカットキーを設定)
+@[1](MenuItem の後にショートカットキーを設定)
 
 ---
 
@@ -66,12 +73,12 @@
 
 ---
 
-### GUI.SetNextControllNameは便利 |
-### GUI.FocusControllは便利 |
+### GUI.SetNextControllNameは便利
+### GUI.FocusControllは便利
 
 ---
 
-### GithubPitchはいいぞ
+### GitPitchはいいぞ
 
 ---
 
