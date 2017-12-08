@@ -4,6 +4,7 @@ using System.Linq;
 using System.IO;
 using UnityEngine;
 using UnityEditor;
+using UnityEditor.SceneManagement;
 
 public class CustomSceneOpener : EditorWindow {
 
@@ -24,13 +25,16 @@ public class CustomSceneOpener : EditorWindow {
 
     public void OnGUI (){
         GUILayout.BeginVertical ();{
+            
             GUI.SetNextControlName ("Input");
             sceneName = GUILayout.TextField (sceneName);
             GUI.FocusControl ("Input");
+
             var sceneList = allScenes;
             if (!string.IsNullOrEmpty (sceneName)){ 
                 sceneList = allScenes.Where ((arg) => Path.GetFileName (arg).Replace (".unity", "").ToLower().Contains (sceneName.ToLower())).ToArray();
             }
+
             foreach (var scene in sceneList){
                 GUILayout.BeginHorizontal ();{
                     GUILayout.Label (Path.GetFileName (scene));
@@ -49,8 +53,8 @@ public class CustomSceneOpener : EditorWindow {
         }GUILayout.EndVertical ();
     }
     private void OpenScene(string scene){
-        if (UnityEditor.SceneManagement.EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo ()){
-            UnityEditor.SceneManagement.EditorSceneManager.OpenScene (scene, UnityEditor.SceneManagement.OpenSceneMode.Single);
+        if (EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo ()){
+            EditorSceneManager.OpenScene (scene, UnityEditor.SceneManagement.OpenSceneMode.Single);
             this.Close ();
         }
     }
