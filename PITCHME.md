@@ -28,7 +28,7 @@
 
 +++
 
-![Video](https://vimeo.com/246468229)
+![Video](https://player.vimeo.com/246468229)
 
 ---
 
