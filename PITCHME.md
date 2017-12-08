@@ -5,7 +5,7 @@
 
 ---
 
----image=Resources/Scenes.png&size=auto 90%
+---?image=Resources/Scenes.png&size=auto 90%
 すごいふえるよ！
 
 ---
