@@ -3,21 +3,29 @@
 
 ![icon](https://github.com/K-U-.png)
 
-
 ---
 
 比較的大規模なゲームの開発をしています
+- 某リアルタイムバトルのある3DRPGとか |
+- 某有名IPのパズルゲームとか |
 
 ---
 
-シーンががすごいふえるよ！
+### シーンをAssetBundleにしてしまう
+
+---
+
+### シーンががすごいふえるよ！
 +++?image=Resources/Scenes.png&size=auto 90%
 
+---
+
+### エンジニアはできるだけマウスを触りたくない
 
 ---
 
 ### つくったもの
-+++?image=Resources/SceneOpener.gif&size=auto 80%
+![Video](https://vimeo.com/246468229)
 
 ---
 
@@ -55,7 +63,15 @@
 
 ---
 
-### まとめ
+### GUI.SetNextControllNameは便利 |
+### GUI.FocusControllは便利 |
 
+---
+
+### GithubPitchはいいぞ
+
+---
+
+### おわり
 
 ---
