@@ -118,9 +118,9 @@ private void OpenScene(string scene){
 
 ---
 
-<color=green>GUI</color>.SetNextControllNameは便利
+<font color="green">GUI</font>.SetNextControllNameは便利
 
-<color=green>GUI</color>.FocusControllは便利
+<font color="green">GUI</font>.FocusControllは便利
 
 ---
 
