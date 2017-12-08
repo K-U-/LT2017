@@ -17,7 +17,7 @@
 ---
 
 つくったもの
-+++?image=Resources/SceneOpener.gif&size=auto
++++?image=Resources/SceneOpener.gif&size=auto 80%
 
 ---
 
