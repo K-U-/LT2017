@@ -59,6 +59,14 @@ public static void OpenDialog(){
 
 @[1](MenuItem の後にショートカットキーを設定)
 
++++
+
+| ホットキー | キー |
+| ---- | --- |
+| % | Cmd or Ctrl |
+| # | Shift |
+| & | option or alt |
+
 ---
 
 ### 自動でフォーカス
