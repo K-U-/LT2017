@@ -134,8 +134,6 @@ GitPitchはいいぞ
 
 https://gitpitch.com/ユーザー名/リポジトリ名
 
-+++
-
 +++?image=Resources/Page.png&size=auto 90%
 
 ---
