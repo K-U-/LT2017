@@ -61,9 +61,9 @@ public static void OpenDialog(){
 
 +++?code=Assets/Editor/CustomSceneOpener.cs&lang=cs
 
-@[27](GUIに名前をつける)
-@[28](GUIを生成する)
-@[29](名前を指定してフォーカスする)
+@[29](GUIに名前をつける)
+@[30](GUIを生成する)
+@[31](名前を指定してフォーカスする)
 
 ---
 
@@ -71,7 +71,7 @@ public static void OpenDialog(){
 
 +++?code=Assets/Editor/CustomSceneOpener.cs&lang=cs
 
-@[43-47](キー入力を見てひらく)
+@[47-51](キー入力を見てひらく)
 
 +++
 
@@ -102,8 +102,8 @@ private void OpenScene(string scene){
 
 ---
 
-### GUI.SetNextControllNameは便利
-### GUI.FocusControllは便利
+GUI.SetNextControllNameは便利
+GUI.FocusControllは便利
 
 ---
 
