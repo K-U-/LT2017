@@ -61,11 +61,11 @@ public static void OpenDialog(){
 
 +++
 
-| ホットキー | キー |
-| ---- | --- |
-| % | Cmd or Ctrl |
+| 文字 | キー |
+| ---- | ---- |
+| % | Cmd / Ctrl |
 | # | Shift |
-| & | option or alt |
+| & | option / alt |
 
 ---
 
