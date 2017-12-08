@@ -102,16 +102,17 @@ private void OpenScene(string scene){
     }
 }
 ```
-@[3](キャンセル以外でtrueなので実際に保存する)
+@[3](キャンセル以外でtrueなので実際にシーンを開く)
 
 ---
 
 GUI.SetNextControllNameは便利
+
 GUI.FocusControllは便利
 
 ---
 
-### GitPitchはいいぞ
+GitPitchはいいぞ
 
 ---
 
